@@ -1,0 +1,14 @@
+{
+  "author": "Matt Insler <matt.insler@gmail.com> (www.mattinsler.com)",
+  "name": "procinfo",
+  "description": "Little module to get process info on different platforms",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mattinsler/procinfo.git"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "main": "index"
+}

@@ -2,12 +2,16 @@
 
 ## Installation
 
-		$ npm install procinfo
+```bash
+$ npm install procinfo
+```
 
 ## Usage
 
-		var procinfo = require('procinfo');
-		
-		procinfo.memory(pid, function(err, info) {
-			console.log(procinfo.pretty_object(info));
-		});
+```javascript
+var procinfo = require('procinfo');
+
+procinfo.memory(pid, function(err, info) {
+	console.log(procinfo.pretty_object(info));
+});
+```
